@@ -2,6 +2,7 @@
 API FastAPI para liquidación de sueldos.
 Expone endpoints sobre la clase Liquidacion para que el frontend
 pueda calcular el sueldo de un empleado.
+Testes: en tests/test_api_integracion.py, se van a ejecutar en CI
 """
 
 from fastapi import FastAPI, HTTPException
